@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="us">
+<head>
+	<meta charset="utf-8">
+	<title>jQuery UI Example Page</title>
+	<link href="jquery-ui.min.css" rel="stylesheet">
+</head>
+<body>
+	<p>
+		Date: <br />
+		<input type="text" id="datepicker1"><br /><br />
+		<input type="text" id="datepicker2"><br /><br />
+		<input type="text" id="datepicker3"><br /><br />
+		<input type="text" id="datepicker4"><br /><br />
+		<input type="text" id="datepicker5"><br /><br />
+		<input type="text" id="datepicker6"><br /><br />
+		<input type="text" id="datepicker7"><br /><br />
+		<input type="text" id="datepicker8"><br /><br />
+		<input type="text" id="datepicker9"><br /><br />
+		<input type="text" id="datepicker10"><br /><br />
+		<input type="text" id="datepicker11"><br /><br />
+		<input type="text" id="datepicker12"><br /><br />
+		<input type="text" id="datepicker13"><br /><br />
+		<input type="text" id="datepicker14"><br /><br />
+		<input type="text" id="datepicker15"><br /><br />
+		<input type="text" id="datepicker16"><br /><br />
+		<input type="text" id="datepicker17"><br /><br />
+		<input type="text" id="datepicker18"><br /><br />
+		<input type="text" id="datepicker19"><br /><br />
+	</p>
+	<script src="jquery-3.5.0.min.js"></script>
+	<script src="jquery-ui.min.js"></script>
+	<script type="text/javascript">
+$("#datepicker1").datepicker({
+	// 日付フォーマット
+	dateFormat: "yy/mm/dd"
+});
+$("#datepicker2").datepicker({
+	// 日付フォーマット
+	dateFormat: "yy/mm/dd",
+	// 日付選択のボタンを表示する
+	showOn: "button"
+});
+$("#datepicker3").datepicker({
+	// 日付フォーマット
+	dateFormat: "yy/mm/dd",
+	// 日付選択のボタンを表示する
+	showOn: "button",
+	// 日付選択の画像を指定する
+	buttonImage: "images/calendar.gif"
+});
+$("#datepicker4").datepicker({
+	// 日付フォーマット
+	dateFormat: "yy/mm/dd",
+	// 日付選択のボタンを表示する
+	showOn: "button",
+	// 日付選択の画像を指定する
+	buttonImage: "images/calendar.gif",
+	// 画像のみを表示する
+	buttonImageOnly: true
+});
+$("#datepicker5").datepicker({
+	// 日付フォーマット
+	dateFormat: "yy/mm/dd",
+	// 日付選択のボタンを表示する
+	showOn: "button",
+	// ボタンに表示するテキストを指定する
+	buttonText: "Select date",
+	dummy: 1
+});
+$("#datepicker6").datepicker({
+	// 日付フォーマット
+	dateFormat: "yy/mm/dd",
+	// 日付選択のボタンを表示する
+	showOn: "both",
+	// 日付選択の画像を指定する
+	buttonImage: "images/calendar.gif",
+	// 画像のみを表示する
+	buttonImageOnly: true
+});
+$("#datepicker6").datepicker({
+	// 日付フォーマット
+	dateFormat: "yy/mm/dd",
+	// 日付選択のボタンを表示する
+	showOn: "both",
+	// 日付選択の画像を指定する
+	buttonImage: "images/calendar.gif",
+	// 画像のみを表示する
+	buttonImageOnly: true
+});
+$("#datepicker7").datepicker({
+	// 日付フォーマット
+	dateFormat: "yy/mm/dd",
+	// 日付選択のボタンを表示する
+	showOn: "both",
+	// 日付選択の画像を指定する
+	buttonImage: "images/calendar.gif",
+	// 画像のみを表示する
+	buttonImageOnly: true,
+	// 年月の順で表示する
+	showMonthAfterYear: true,
+});
+$("#datepicker8").datepicker({
+	// 日付フォーマット
+	dateFormat: "yy/mm/dd",
+	// 日付選択のボタンを表示する
+	showOn: "both",
+	// 日付選択の画像を指定する
+	buttonImage: "images/calendar.gif",
+	// 画像のみを表示する
+	buttonImageOnly: true,
+	// 年月の順で表示する
+	showMonthAfterYear: true,
+	// 月のリスト選択
+	changeMonth: true
+});
+$("#datepicker9").datepicker({
+	// 日付フォーマット
+	dateFormat: "yy/mm/dd",
+	// 日付選択のボタンを表示する
+	showOn: "both",
+	// 日付選択の画像を指定する
+	buttonImage: "images/calendar.gif",
+	// 画像のみを表示する
+	buttonImageOnly: true,
+	// 年月の順で表示する
+	showMonthAfterYear: true,
+	// 月のリスト選択
+	changeMonth: true,
+	// 月のラベルを指定
+	monthNamesShort: ['1月','2月','3月','4月','5月','6月','7月','8月','9月','10月','11月','12月'],
+});
+$("#datepicker10").datepicker({
+	// 日付フォーマット
+	dateFormat: "yy/mm/dd",
+	// 日付選択のボタンを表示する
+	showOn: "both",
+	// 日付選択の画像を指定する
+	buttonImage: "images/calendar.gif",
+	// 画像のみを表示する
+	buttonImageOnly: true,
+	// 年月の順で表示する
+	showMonthAfterYear: true,
+	// 年のサフィックスを指定
+	yearSuffix: '年',
+	// 月のリスト選択
+	changeMonth: true,
+	// 月のラベルを指定
+	monthNamesShort: ['1月','2月','3月','4月','5月','6月','7月','8月','9月','10月','11月','12月']
+});
+$("#datepicker11").datepicker({
+	// 日付フォーマット
+	dateFormat: "yy/mm/dd",
+	// 日付選択のボタンを表示する
+	showOn: "both",
+	// 日付選択の画像を指定する
+	buttonImage: "images/calendar.gif",
+	// 画像のみを表示する
+	buttonImageOnly: true,
+	// 年月の順で表示する
+	showMonthAfterYear: true,
+	// 年のリスト選択
+	changeYear: true,
+	// 年のサフィックスを指定
+	yearSuffix: '年',
+	// 月のリスト選択
+	changeMonth: true,
+	// 月のラベルを指定
+	monthNamesShort: ['1月','2月','3月','4月','5月','6月','7月','8月','9月','10月','11月','12月']
+});
+$("#datepicker12").datepicker({
+	// 日付フォーマット
+	dateFormat: "yy/mm/dd",
+	// 日付選択のボタンを表示する
+	showOn: "both",
+	// 日付選択の画像を指定する
+	buttonImage: "images/calendar.gif",
+	// 画像のみを表示する
+	buttonImageOnly: true,
+	// 年月の順で表示する
+	showMonthAfterYear: true,
+	// 年のリスト選択
+	changeYear: true,
+	// 年のサフィックスを指定
+	yearSuffix: '年',
+	// 月のリスト選択
+	changeMonth: true,
+	// 月のラベルを指定
+	monthNamesShort: ['1月','2月','3月','4月','5月','6月','7月','8月','9月','10月','11月','12月'],
+	monthSuffix: '月',
+    beforeShowDay: function (date) {
+        if (date.getDay() == 0 || date.getDay() == 6) {
+            // 日曜日
+            return [false, 'ui-state-disabled'];
+        } else {
+            // 平日
+            return [true, ''];
+        }
+    }
+});
+/*
+$("#datepicker4").datepicker({
+	// 日付フォーマット
+	dateFormat: "yy/mm/dd",
+	// 日付選択のボタンを表示する
+	showOn: "button",
+	showOn: "both",
+	showOn: "focus",
+	// 日付選択の画像を指定する
+	buttonImage: "images/calendar.gif",
+	// 画像のみを表示する
+	buttonImageOnly: true,
+	// ボタンに表示するテキストを指定する
+	buttonText: "Select date",
+	// 年月の順で表示する
+	showMonthAfterYear: true,
+	// 年のサフィックスを指定
+	yearSuffix: '年',
+	// 月のリスト選択
+	changeMonth: true,
+	// 月のラベルを指定
+	monthNamesShort: ['1月','2月','3月','4月','5月','6月','7月','8月','9月','10月','11月','12月'],
+	dummy: 1
+});
+*/
+	</script>
+</body>
+</html>
